@@ -1,4 +1,7 @@
 class TimeFinder:
+    """
+    Класс для поиска временных сущностей во входящем тексте
+    """
     entities = []
     def __init__(self, sentence):
         self.sentence = sentence
